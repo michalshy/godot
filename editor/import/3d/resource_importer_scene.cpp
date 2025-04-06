@@ -2721,6 +2721,7 @@ void ResourceImporterScene::_optimize_track_usage(AnimationPlayer *p_player, Ani
 						// Do Nothing.
 					} break;
 					case ANIMATION_IMPORT_TRACKS_IF_PRESENT_FOR_ALL: {
+						//To be investigated
 						used_tracks[j].insert(anim->track_get_path(i), 0);
 						tracks_to_add = true;
 					} break;
